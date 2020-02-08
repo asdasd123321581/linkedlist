@@ -15,7 +15,7 @@ private:
 	};
 public:
 	Linkedlist();
-	void Add(int element);
+	void Add(const int element);
 	void Print() const;
 	void Delete() const;
 	int Size() const;

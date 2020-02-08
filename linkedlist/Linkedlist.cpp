@@ -6,7 +6,7 @@ Linkedlist::Linkedlist()
 	size = 0;
 }
 
-void Linkedlist::Add(int element)
+void Linkedlist::Add(const int element)
 {
 	if (head == nullptr) {
 		head = new Element(element);
